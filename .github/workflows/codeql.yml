@@ -19,6 +19,10 @@ on:
   schedule:
     - cron: '25 18 * * 4'
   workflow_dispatch:
+    inputs:
+      resumeUrl:
+        required: false
+        default: ''
 
 jobs:
   analyze:
