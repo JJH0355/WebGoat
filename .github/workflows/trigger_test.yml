@@ -1,0 +1,17 @@
+name: Trigger n8n workflow
+
+on:
+  push:
+    branches:
+      - main  # main 브랜치에 push 시 실행
+   workflow_dispatch:
+
+jobs:
+  call-n8n:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send webhook to n8n
+        run: |
+          curl -k -X POST "https://s1sflab.softflow.in/webhook-test/19cbd317-4ffd-42b1-8b08-f5ae72217d79/webhook" \
+          -H "Content-Type: application/json" \
+          -d '{"event": "manual_test"}'
