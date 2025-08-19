@@ -74,7 +74,7 @@
     <commons-text.version>1.13.1</commons-text.version>
     <guava.version>33.4.8-jre</guava.version>
     <jacoco.version>0.8.11</jacoco.version>
-    <java.version>23</java.version>
+    <java.version>21</java.version>
     <jaxb.version>2.3.1</jaxb.version>
     <jjwt.version>0.9.1</jjwt.version>
     <jose4j.version>0.9.3</jose4j.version>
@@ -87,8 +87,8 @@
     <maven-source-plugin.version>3.1.0</maven-source-plugin.version>
     <maven-surefire-plugin.version>3.5.3</maven-surefire-plugin.version>
     <maven.compiler.proc>full</maven.compiler.proc>
-    <maven.compiler.source>23</maven.compiler.source>
-    <maven.compiler.target>23</maven.compiler.target>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
 
     <pmd.version>3.15.0</pmd.version>
     <!-- Use UTF-8 Encoding -->
@@ -98,11 +98,11 @@
     <waittimeForServerStart>60</waittimeForServerStart>
     <webdriver.version>6.0.1</webdriver.version>
     <webgoat.context>/WebGoat</webgoat.context>
-    <webgoat.port>8080</webgoat.port>
+    <webgoat.port>8082</webgoat.port>
     <webgoat.sslenabled>false</webgoat.sslenabled>
     <webjars-locator-core.version>0.59</webjars-locator-core.version>
     <webwolf.context>/WebWolf</webwolf.context>
-    <webwolf.port>9090</webwolf.port>
+    <webwolf.port>9092</webwolf.port>
     <wiremock.version>3.13.0</wiremock.version>
     <xml-resolver.version>1.2</xml-resolver.version>
     <xstream.version>1.4.5</xstream.version>

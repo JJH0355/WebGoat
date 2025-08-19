@@ -2,3 +2,8 @@
 
 !/target
 !/config/desktop
+
+/.cdxgen.json
+/bom.json
+/00.yaml
+/coverity.yaml

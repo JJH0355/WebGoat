@@ -1,0 +1,12 @@
+services:
+  webgoat:
+    build: .
+    ports:
+      - "8082:8082"
+    container_name: webgoat
+
+  webwolf:
+    image: webgoat/webwolf
+    ports:
+      - "9092:9092"
+    container_name: webwolf
